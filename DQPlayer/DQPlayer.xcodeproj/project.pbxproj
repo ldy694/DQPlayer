@@ -13,6 +13,7 @@
 		014217551DF6920300C0F100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014217531DF6920300C0F100 /* Main.storyboard */; };
 		014217571DF6920300C0F100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014217561DF6920300C0F100 /* Assets.xcassets */; };
 		0142175A1DF6920300C0F100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014217581DF6920300C0F100 /* LaunchScreen.storyboard */; };
+		01D735701E0945C700A6E515 /* DDBlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D7356F1E0945C700A6E515 /* DDBlineView.m */; };
 		943189856CA32978DD942FA0 /* libPods-DQPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC328D71596FE5ED5FBB2CE0 /* libPods-DQPlayer.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		014217561DF6920300C0F100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014217591DF6920300C0F100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0142175B1DF6920300C0F100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D7356E1E0945C700A6E515 /* DDBlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBlineView.h; sourceTree = "<group>"; };
+		01D7356F1E0945C700A6E515 /* DDBlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBlineView.m; sourceTree = "<group>"; };
 		5B2027023F2E165D68453A54 /* Pods-DQPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQPlayer/Pods-DQPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		8122759201F4C0AF86D9775F /* Pods-DQPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQPlayer/Pods-DQPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		DC328D71596FE5ED5FBB2CE0 /* libPods-DQPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DQPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +72,8 @@
 				0142174E1DF6920300C0F100 /* AppDelegate.m */,
 				014217501DF6920300C0F100 /* ViewController.h */,
 				014217511DF6920300C0F100 /* ViewController.m */,
+				01D7356E1E0945C700A6E515 /* DDBlineView.h */,
+				01D7356F1E0945C700A6E515 /* DDBlineView.m */,
 				014217531DF6920300C0F100 /* Main.storyboard */,
 				014217561DF6920300C0F100 /* Assets.xcassets */,
 				014217581DF6920300C0F100 /* LaunchScreen.storyboard */,
@@ -227,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				014217521DF6920300C0F100 /* ViewController.m in Sources */,
+				01D735701E0945C700A6E515 /* DDBlineView.m in Sources */,
 				0142174F1DF6920300C0F100 /* AppDelegate.m in Sources */,
 				0142174C1DF6920300C0F100 /* main.m in Sources */,
 			);

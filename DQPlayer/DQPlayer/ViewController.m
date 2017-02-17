@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DDBlineView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.view addSubview:[[DDBlineView alloc] initWithFrame:CGRectMake(0, 100, 400, 400)]];
 }
 
 
